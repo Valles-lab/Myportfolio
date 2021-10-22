@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+*{
+  background-color: #24252A;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: 'Chewy', cursive;
+  color: gainsboro;
+}
+
+li, a, button{
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.logo{
+  padding: 0px;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 20px;
+}
+header{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 35px 10 px;
+  padding: 15px;
+}
+.navbar{
+  list-style: none;
+  
+}
+.navbar li{
+  display: inline-block;
+  padding: 10px 30px;
+ 
+}
+.navbar li a{
+  transition: all 0.3s ease 0s;
+  
+}
+.head{
+  color:lightseagreen;
+  display: inline-block;
+}
+.navbar li a:hover{
+  color:lightseagreen;
+}
+
+button{
+  padding: 10px 25px;
+  background-color: lightseagreen;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+button:hover{
+  background-color:  darkcyan;
+}
+h1{
+  font-weight: 30px;
+  font-size: 20px;
+  color:gainsboro;
+  letter-spacing: 5px;
+}
+.row{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.greeting{
+  margin-left: 10%;
+  font-size: 3em;
+}
+h2{
+  text-decoration: line-through;
+  margin-left: 10%;
+  color: rgb(251, 123, 123);
+  letter-spacing: 5px;
+  font-size: 30px;
+}
+i{
+  font-size: larger;
+  color: rgb(251, 123, 123);
+}
+.chad{
+  border-radius: 20%;
+  height: 28em;
+}
+.learnbutton{
+  margin-top: 5%;
+  margin-left: 10%;
+  
+}
+.container{
+margin: 3% 5%;
+
+}
+.container p{
+  font: 1.5em 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer{
+position: fixed;  
+bottom: 0; 
+width: 100%;   
+text-align: center;  
+}
+.footer p{
+  background-color: rgba(6, 125, 161, 0.986);
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  font-size: small;
+}
+.center{
+  text-align: center;
+  color: lightseagreen;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+p{
+  font: 1.5em 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+.avatar{
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.avatar:hover{
+  box-shadow: 4px 2px 0px 0px rgba(241, 99, 99, 0.918);
+}
+.name{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ul{
+  list-style: none;
+}
+.contact{
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+.c-img{
+  width: 10%;
+  margin-right: 5%;
+}
+.contact-a{
+  display: inline; 
+  align-self: center;
+}
+.contact-text{
+  font-size: x-large;
+  font-weight: lighter;
+  
+}
